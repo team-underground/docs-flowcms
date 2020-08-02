@@ -1,0 +1,11 @@
+- ## Get Started
+    - [Overview](/{{route}}/{{version}}/overview)
+    - [Installation](/{{route}}/{{version}}/installation)
+    - [Configuration](/{{route}}/{{version}}/configuration)
+    - [Create Page](/{{route}}/{{version}}/page)
+    - [Create Landing Page](/{{route}}/{{version}}/landing)
+    - [Article](/{{route}}/{{version}}/article)
+    - [Media](/{{route}}/{{version}}/media)
+    - [Resources](/{{route}}/{{version}}/resources)
+    - [Collaborators](/{{route}}/{{version}}/collaborators)
+    - [License](/{{route}}/{{version}}/license)
