@@ -11,9 +11,10 @@ return [
     'Installation' => [
         'url' => 'docs/installation',
         'children' => [
-            'Install' => 'docs/installation#install',
-            'CMS Installation' => 'docs/installation#cms-installation',
-            'Default User' => 'docs/installation/#default-user',
+            'Require the Package' => 'docs/installation#require-the-package',
+            'Add Credentials' => 'docs/installation#add-credentials',
+            'Run The Installer' => 'docs/installation/#run-the-installer',
+            'Logging in to the Panel' => 'docs/installation/#logging-in',
         ],
     ],
     'Configuration' => [

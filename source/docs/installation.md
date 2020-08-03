@@ -1,61 +1,66 @@
 ---
 title: Installation
-description: Getting started with Jigsaw's docs starter template is as easy as 1, 2, 3.
+description: Installation steps for flowcms
 extends: _layouts.documentation
 section: content
 ---
-#   Installation
-<a name="install"></a>
 
-## Install
+# Installation Steps
 
--   Clone or copying the repository
+<a name="require-the-package"></a>
 
-```bash
-git clone git@github.com:team-underground/flowcms.git personalsite
-```
+## Require the Package
 
--   Change directory to your personal site
+After creating your new Laravel application you can include the Flowcms package with the following command:
 
 ```bash
-cd personalsite
+composer require flowcms/flowcms
 ```
 
--   Install package dependency
+<a name="add-credentials"></a>
 
-```bash
-composer install
+## Add the DB Credentials & APP_URL
+
+Next make sure to create a new database and add your database credentials to your .env file:
+
+```
+DB_HOST=localhost
+DB_DATABASE=homestead
+DB_USERNAME=homestead
+DB_PASSWORD=secret
 ```
 
--   Copy base environment variables
+You will also want to update your website URL inside of the APP_URL variable inside the .env file:
 
-```bash
-cp .env.example .env
+```
+APP_URL=http://localhost:8000
 ```
 
-<a name="cms-installation"></a>
+Update the `FILESYSTEM_DRIVER` variable inside the .env file to public, so that media manager works correctly:
 
-## CMS Installation
-
--   Open your site in the browser
--   While opening, you will be redirected to `/install` path.
--   Provide the necessary details for installion of your personal site.
-
-<a name="default-user"></a>
-
-## Default User
-
--   After successfull installation FlowCMS will create one default user:
-
-```bash
-# Email
-yourgiven@email.com
-# Password
-password
+```
+FILESYSTEM_DRIVER=public
 ```
 
->  It is very important that you change the password for the default user immediately after log in
+<a name="run-the-installer"></a>
 
-Go to Profile Settings to change password.
+## Run The Installer
 
->  Please provide the APP_URL correctly so that, the resources like images or files correctly works
+```
+php artisan flowcms:install
+```
+
+And we're all good to go!
+
+Start up a local development server with `php artisan serve` And, visit http://localhost:8000/.
+
+<a name="logging-in"></a>
+
+## Logging in to the Admin Panel
+
+A user should have been created for you with the following login credentials. You can access the panel by hitting `/login` in the url:
+
+> **email:** `admin@admin.com`  
+> **password:** `password`
+
+NOTE: Please ensure to change the password immediately after the first login.
