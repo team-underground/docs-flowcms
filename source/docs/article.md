@@ -7,7 +7,7 @@ section: content
 #   Article / Blog
 
 <a name="section-1"></a>
-## Create Article
+### Create Article
 
 Go to articles to create a new Article. The blog is available in the url `/blog`
 

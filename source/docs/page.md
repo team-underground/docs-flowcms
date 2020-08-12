@@ -5,18 +5,19 @@ extends: _layouts.documentation
 section: content
 ---
 
-- [Create Page](#create-page)
-- [Create Blocks](#create-blocks)
+# Page
 
-<a name="section-1"></a>
-## Create Page
+> **Note:** Page slug cannot be edited at present
+
+<a name="create-page"></a>
+### Create Page
 
 Go to **Page** section and enter a page title to create a new one. Make sure all page name are unique and url-friendly.
 
 ![Create Page](/assets/cms/docs/Page.png)
 
-<a name="section-2"></a>
-## Create Blocks
+<a name="create-blocks"></a>
+### Create Blocks
 
 After creating a **Page** go to Edit Page and click a block to add for this page.
 

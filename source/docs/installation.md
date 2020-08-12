@@ -9,17 +9,17 @@ section: content
 
 <a name="require-the-package"></a>
 
-## Require the Package
+### Require the Package
 
 After creating your new Laravel application you can include the Flowcms package with the following command:
 
-```bash
+```php
 composer require flowcms/flowcms
 ```
 
 <a name="add-credentials"></a>
 
-## Add the DB Credentials & APP_URL
+### Add the DB Credentials & APP_URL
 
 Next make sure to create a new database and add your database credentials to your .env file:
 
@@ -44,7 +44,7 @@ FILESYSTEM_DRIVER=public
 
 <a name="run-the-installer"></a>
 
-## Run The Installer
+### Run The Installer
 
 ```
 php artisan flowcms:install
@@ -56,11 +56,13 @@ Start up a local development server with `php artisan serve` And, visit http://l
 
 <a name="logging-in"></a>
 
-## Logging in to the Admin Panel
+### Logging in to the Admin Panel
 
 A user should have been created for you with the following login credentials. You can access the panel by hitting `/login` in the url:
 
-> **email:** `admin@admin.com`  
-> **password:** `password`
+```
+email: admin@admin.com  
+password: password
+```
 
-NOTE: Please ensure to change the password immediately after the first login.
+> **NOTE:** Please ensure to change the password immediately after the first login.

@@ -2,40 +2,38 @@
 
 return [
     'Overview' => [
-        'url' => 'docs/getting-started',
+        //'url' => 'docs/getting-started',
         'children' => [
-            'About' => 'docs/getting-started#about',
+            'About FlowCMS' => 'docs/getting-started',
             'Features' => 'docs/getting-started#features',
         ],
     ],
     'Installation' => [
-        'url' => 'docs/installation',
+        //'url' => 'docs/installation',
         'children' => [
-            'Require the Package' => 'docs/installation#require-the-package',
+            'Require the Package' => 'docs/installation',
             'Add Credentials' => 'docs/installation#add-credentials',
             'Run The Installer' => 'docs/installation/#run-the-installer',
             'Logging in to the Panel' => 'docs/installation/#logging-in',
         ],
     ],
     'Configuration' => [
-        'url' => 'docs/configuration',
+       // 'url' => 'docs/configuration',
         'children' => [
-            'Settings' => 'docs/configuration/#settings',
-            'Menu Settings' => 'docs/configuration/#menu-settings'
+            'Site Settings' => 'docs/configuration',
+            'Menu Settings' => 'docs/configuration/#menu-settings',
+            'Page' => 'docs/page',
+            'Blocks' => 'docs/page/#create-blocks',
+            'Landing Page' => 'docs/landing',
+            'Article' => 'docs/article',
+            'Media Upload' => 'docs/media'
         ]
     ],
-    'Create Page' => ['url' => 'docs/page'],
-    'Create Landing Page' => ['url' => 'docs/landing'],
-    'Article' => ['url' => 'docs/article'],
-    'Media' => [
-        'url' => 'docs/media',
+    'Resources' => [
         'children' => [
-            'Upload' => 'docs/media/#upload',
-            'Your Files' => 'docs/media/#your-files'
+            'Important Links' => 'docs/resources',
+            'Collaborators' => 'docs/collaborators',
+            'License' => 'docs/license',
         ]
-    ],
-    'Resources' => ['url' => 'docs/resources'],
-    'Collaborators' => ['url' => 'docs/collaborators'],
-    'License' => ['url' => 'docs/license'],
-
+    ]
 ];
