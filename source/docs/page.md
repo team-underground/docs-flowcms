@@ -23,11 +23,11 @@ After creating a **Page** go to Edit Page and click a block to add for this page
 
 ![Create Page Blocks](/assets/cms/docs/PageBlocks.png)
 
->  A page can have many blocks.
+> A page can have many blocks.
 
 After creating a block (eg. service), the service block form show up.
 Another new section named **Order Blocks** also becomes available. The **Order Blocks** helps in ordering the blocks created inside a page.
 
 ![Page Block Service](/assets/cms/docs/PageBlockCreate.png)
 
->  For a dynamic static page the template must be **page**.
+> For a dynamic static page the template must be **page**.
