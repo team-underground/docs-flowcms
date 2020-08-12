@@ -6,17 +6,17 @@ section: content
 ---
 #   Landing Page
 
+> A Page is a landing page if the template of the page is **landing**.
+
 <a name="create-landing-page"></a>
-## Create Landing Page
+### Create Landing Page
 
 Go to **Page** section and enter a page title (eg. landing) to create a new one. Make sure all page name are unique and url-friendly.
 
 ![Create Page](/assets/cms/docs/Page.png)
 
->   A Page is landing page if the template of the page is **landing**.
-
 <a name="add-page"></a>
-## Add Page
+### Add Page
 
 Another section named **Add Page** becomes available if the template of the page is **landing**. The **Add Page** helps in ordering the blocks created inside a landing page as well add other pages blocks section.
 

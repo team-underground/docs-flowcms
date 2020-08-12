@@ -4,13 +4,12 @@ description: Getting started with Jigsaw's docs starter template is as easy as 1
 extends: _layouts.documentation
 section: content
 ---
-# Overview
-
+ 
 <a name="about"></a>
-## About Flowcms
+# About Flowcms
 
 <p align="center">
-<img src="/assets/cms/banner.svg" alt="Flowcms">
+<img src="/assets/cms/banner.svg" alt="Flowcms" class="w-full">
 </p>
 
 FlowCMS is a free, open source, simple content management powered by **Laravel**, **AlpineJS** and **TailwindCSS**. Built for developers for running blogs, landing pages, use as starter admin panel and many more.
@@ -19,7 +18,7 @@ FlowCMS is built on top of [Laravel](https://laravel.com/) Framework, so feel fr
 
 
 <a name="features"></a>
-## Features
+### Features
 
 ![FlowCMS Overview](/assets/cms/docs/Overview.png)
 
