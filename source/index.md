@@ -4,10 +4,9 @@ description: Getting started with Jigsaw's docs starter template is as easy as 1
 extends: _layouts.documentation
 section: content
 ---
-# Overview
 
 <a name="section-1"></a>
-## About Flowcms
+# About Flowcms
 
 <p align="center">
     <img src="/assets/cms/banner.svg" alt="Flowcms">
@@ -20,7 +19,7 @@ FlowCMS is built on top of [Laravel](https://laravel.com/) Framework, so feel fr
 
 
 <a name="section-2"></a>
-## Features
+### Features
 
 ![FlowCMS Overview](/assets/cms/docs/Overview.png)
 
