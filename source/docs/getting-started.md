@@ -22,11 +22,11 @@ FlowCMS is built on top of [Laravel Framework](https://laravel.com/), so feel fr
 
 ![FlowCMS Overview](/assets/cms/docs/Overview.png)
 
--   Blog with quilljs-editor
--   Dynamic Static Page
--   Dynamic Landing Page
--   Block UI
--   Seo Options for Page
--   Social Sharing
--   Assets Manager
--   Contact Us Block
+- Blog with quilljs-editor
+- Dynamic Static Page
+- Dynamic Landing Page
+- Block UI
+- Seo Options for Page
+- Social Sharing
+- Assets Manager
+- Contact Us Block

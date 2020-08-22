@@ -5,9 +5,11 @@
 // powered by https://highlightjs.org
 @import '~highlight.js/styles/a11y-light.css';
 
+/*! purgecss start ignore */
 @import 'base';
 @import 'navigation';
 @import 'documentation';
 @import 'search';
+/*! purgecss end ignore */
 
 @tailwind utilities;
