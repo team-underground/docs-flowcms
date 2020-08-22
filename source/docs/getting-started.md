@@ -14,7 +14,7 @@ section: content
 
 FlowCMS is a free, open source, simple content management powered by **Laravel**, **AlpineJS** and **TailwindCSS**. Built for developers for running blogs, landing pages, use as starter admin panel and many more.
 
-FlowCMS is built on top of [Laravel](https://laravel.com/) Framework, so feel free to extend according to your needs.
+FlowCMS is built on top of [Laravel Framework](https://laravel.com/), so feel free to extend according to your needs.
 
 
 <a name="features"></a>
@@ -22,11 +22,11 @@ FlowCMS is built on top of [Laravel](https://laravel.com/) Framework, so feel fr
 
 ![FlowCMS Overview](/assets/cms/docs/Overview.png)
 
-    -   Blog with quilljs-editor
-    -   Dynamic Static Page
-    -   Dynamic Landing Page
-    -   Block UI
-    -   Seo Options for Page
-    -   Social Sharing
-    -   Assets Manager
-    -   Contact Us Block
+-   Blog with quilljs-editor
+-   Dynamic Static Page
+-   Dynamic Landing Page
+-   Block UI
+-   Seo Options for Page
+-   Social Sharing
+-   Assets Manager
+-   Contact Us Block

@@ -40,17 +40,13 @@
     @endif
 
     <style>
-        html {
-            font-family: 'DM Sans', sans-serif;
-        }
-        code {
-            font-family: 'DM Mono', monospace;
-        }
+        html { font-family: 'DM Sans', sans-serif; }
+        code { font-family: 'DM Mono', monospace; }
     </style>
 </head>
 
 <body class="antialiased flex flex-col justify-between min-h-screen bg-white text-gray-700 leading-normal">
-    <header class="border-t-4 border-red-500 sticky top-0 flex items-center shadow-sm bg-white h-16 mb-8 py-4" role="banner">
+    <header class="z-40 border-t-4 border-red-500 sticky top-0 flex items-center shadow-sm bg-white h-16 mb-8 py-4" role="banner">
         <div class="container flex items-center max-w-8xl mx-auto px-4 lg:px-4">
             <div class="flex items-center">
                 <a href="/" title="{{ $page->siteName }} home" class="inline-flex items-center no-underline">
