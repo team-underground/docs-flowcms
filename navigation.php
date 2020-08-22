@@ -21,7 +21,11 @@ return [
        // 'url' => 'docs/configuration',
         'children' => [
             'Site Settings' => 'docs/configuration',
-            'Menu Settings' => 'docs/configuration/#menu-settings',
+            'Menu Settings' => 'docs/configuration/#menu-settings'
+        ]
+    ],
+    'How it works' => [
+        'children' => [
             'Page' => 'docs/page',
             'Blocks' => 'docs/page/#create-blocks',
             'Landing Page' => 'docs/landing',

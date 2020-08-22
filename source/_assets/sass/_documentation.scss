@@ -1,1 +1,17 @@
 // Add your custom styles here
+.markdown-content {
+	ul {
+		@apply .ml-4;
+	}
+
+	li {
+	    @apply .list-disc;
+	}
+
+	a {
+		background-image: linear-gradient( #fff 60%, #fff5f5 40%);
+		background-size: 100% 100%;
+		background-repeat: no-repeat;
+	}
+}
+ 
