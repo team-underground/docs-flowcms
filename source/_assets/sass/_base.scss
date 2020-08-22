@@ -16,6 +16,7 @@ a {
 }
 
 blockquote {
+    @apply .ml-auto;
     @apply .relative;
     @apply .bg-indigo-100;
     @apply .border-indigo-300;
